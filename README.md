@@ -18,6 +18,13 @@ The idea is simple: keep your library in one place, sync reading progress betwee
 - Self-hostable stack with libSQL and S3-compatible storage
 - Built to keep your library, progress, and KOReader workflow in one place
 
+## A few images
+
+![Library](./docs/img/library.png)
+![Detail](./docs/img/detail.png)
+![Progress](./docs/img/progress.png)
+![Search](./docs/img/search.png)
+
 ## Notes
 
 - Database migrations live in `sake/` and are managed with Drizzle.
