@@ -9,6 +9,15 @@ The idea is simple: keep your library in one place, sync reading progress betwee
 - `sake/` - the main web app and API (`Svelte 5` + `SvelteKit`)
 - `koreaderPlugins/` - the KOReader plugins used by Sake
 
+## Features
+
+- Personal reading hub for managing books, metadata, shelves, ratings, and reading state
+- KOReader integration for syncing books, progress, and plugin updates across devices
+- Provider-based search with direct download or import into your library
+- Local account auth plus device API keys for secure browser and device access
+- Self-hostable stack with libSQL and S3-compatible storage
+- Built to keep your library, progress, and KOReader workflow in one place
+
 ## Notes
 
 - Database migrations live in `sake/` and are managed with Drizzle.
